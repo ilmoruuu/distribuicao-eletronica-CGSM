@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b53syt0u3sr2a"
-path="res://.godot/imported/Botão Avançar.png-9e03580d8474234953c691a1e72611fa.ctex"
+uid="uid://b8db1pute5s0"
+path="res://.godot/imported/Desativa som.svg-3556c3a4e5abf673bdba4209027910a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/buttons/Botão Avançar.png"
-dest_files=["res://.godot/imported/Botão Avançar.png-9e03580d8474234953c691a1e72611fa.ctex"]
+source_file="res://assets/buttons/Desativa som.svg"
+dest_files=["res://.godot/imported/Desativa som.svg-3556c3a4e5abf673bdba4209027910a5.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

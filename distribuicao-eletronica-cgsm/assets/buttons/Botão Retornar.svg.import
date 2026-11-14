@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7h5xdq2oagas"
-path="res://.godot/imported/Botão Voltar para início.png-41b932159bd8878b1f8c524666a1feb1.ctex"
+uid="uid://cjnw4v4uvd7nr"
+path="res://.godot/imported/Botão Retornar.svg-d94cb5caccad69e0943d42fd6d6b47c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/buttons/Botão Voltar para início.png"
-dest_files=["res://.godot/imported/Botão Voltar para início.png-41b932159bd8878b1f8c524666a1feb1.ctex"]
+source_file="res://assets/buttons/Botão Retornar.svg"
+dest_files=["res://.godot/imported/Botão Retornar.svg-d94cb5caccad69e0943d42fd6d6b47c0.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

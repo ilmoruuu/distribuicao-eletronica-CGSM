@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3r2xofhf7x8g"
-path="res://.godot/imported/Botão Retornar.png-8f30755e60fade5debfedc5291464a98.ctex"
+uid="uid://d15gw8yd5b8tr"
+path="res://.godot/imported/Jagged Semi-Circle.svg-0c628907f7130ccc40f868b0de1b88dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/buttons/Botão Retornar.png"
-dest_files=["res://.godot/imported/Botão Retornar.png-8f30755e60fade5debfedc5291464a98.ctex"]
+source_file="res://assets/components/Jagged Semi-Circle.svg"
+dest_files=["res://.godot/imported/Jagged Semi-Circle.svg-0c628907f7130ccc40f868b0de1b88dd.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

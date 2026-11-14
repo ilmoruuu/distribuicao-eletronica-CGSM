@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://h7qq4mua4ywx"
-path="res://.godot/imported/Jagged Circle.png-54860ed4b2b5fde9c585b77c068412f7.ctex"
+uid="uid://dr4j30dgombx6"
+path="res://.godot/imported/Botão Ir para o início.svg-1d7670646b885381d1566f9cb0454d01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/components/Jagged Circle.png"
-dest_files=["res://.godot/imported/Jagged Circle.png-54860ed4b2b5fde9c585b77c068412f7.ctex"]
+source_file="res://assets/buttons/Botão Ir para o início.svg"
+dest_files=["res://.godot/imported/Botão Ir para o início.svg-1d7670646b885381d1566f9cb0454d01.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
