@@ -8,15 +8,12 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_itym7"]
 font = ExtResource("4_qu3kr")
-font_size = 96
+font_size = 128
+font_color = Color(0.79607844, 0.1882353, 0.8784314, 1)
 
-[sub_resource type="LabelSettings" id="LabelSettings_alf3y"]
+[sub_resource type="LabelSettings" id="LabelSettings_6o4we"]
 font = ExtResource("5_4ib4y")
-font_size = 24
-
-[sub_resource type="LabelSettings" id="LabelSettings_m5a1v"]
-font = ExtResource("5_4ib4y")
-font_size = 18
+font_size = 20
 
 [node name="ContraCapa" type="Node2D" unique_id=493268727]
 
@@ -62,37 +59,29 @@ flat = true
 
 [node name="Node2D2" type="Node2D" parent="." unique_id=1397859668]
 
+[node name="ColorRect" type="ColorRect" parent="Node2D2" unique_id=979892640]
+offset_top = 113.0
+offset_right = 768.0
+offset_bottom = 415.0
+
 [node name="Label" type="Label" parent="Node2D2" unique_id=1079752193]
-offset_left = 35.0
-offset_top = 39.0
-offset_right = 473.0
-offset_bottom = 136.0
-text = "Referências"
+offset_left = 83.0
+offset_top = 135.0
+offset_right = 664.0
+offset_bottom = 396.0
+text = "Distribuição
+Eletrônica"
 label_settings = SubResource("LabelSettings_itym7")
 vertical_alignment = 2
 
-[node name="Label3" type="Label" parent="Node2D2" unique_id=885652751]
-offset_left = 595.0
-offset_top = 55.0
-offset_right = 710.0
-offset_bottom = 86.0
-text = "Página 6"
-label_settings = SubResource("LabelSettings_alf3y")
-vertical_alignment = 2
-
-[node name="Label2" type="Label" parent="Node2D2" unique_id=2996646]
-offset_left = 45.0
-offset_top = 159.0
-offset_right = 725.0
-offset_bottom = 759.0
-text = "PIMENTA, Israel Francisco Bernardo (resp.).Química por toda parte: médio: volume único. 1. ed. São Paulo: FTD, 2024.
-
-CANTO, Eduardo Leite do; LEITE, Laura Celloto Canto; CANTO, Luiza Celloto. Moderna plus química na abordagem do cotidiano.1. ed. São Paulo: Moderna, 2024. volume único.
-
-FONSECA, Martha Reis Marques da. Química. 1. ed. São Paulo: Ática, 2013. 3 v.
-
-MANUAL DA QUÍMICA. Diagrama de Linus Pauling e distribuição eletrônica. Manual da Química, 2026. Disponível em: https://www.manualdaquimica.com. Acesso em: 28 out. 2026.
-
-CABRAL, Gabriel. Distribuição eletrônica. [S. l.: s. n.], 2026. 1 vídeo (18 min 49 s). Publicado pelo canal Professor Gabriel Cabral. Disponível em: https://youtu.be/q-QFdbIbn2Y?si=UqY_MNUoGjZvq04X. Acesso em: 28 out. 2026."
-label_settings = SubResource("LabelSettings_m5a1v")
-autowrap_mode = 1
+[node name="Label2" type="Label" parent="Node2D2" unique_id=585693022]
+offset_left = 84.0
+offset_top = 435.0
+offset_right = 770.0
+offset_bottom = 602.0
+text = "Discente: Murilo Gonçalves Lucena
+Ano e Semestre: 2026 (Semestre 2026.2)
+Orientador: Profº Me. Ewerton Mendonça
+Disciplina: Computação Gráfica e Sistemas Multimídia
+"
+label_settings = SubResource("LabelSettings_6o4we")

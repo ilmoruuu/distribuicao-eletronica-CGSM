@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://8sdxecgkrwcp"]
+
+[ext_resource type="Texture2D" uid="uid://dw50yk4mqxhjg" path="res://assets/buttons/Botão Avançar.svg" id="1_53g2t"]
+[ext_resource type="Texture2D" uid="uid://cjnw4v4uvd7nr" path="res://assets/buttons/Botão Retornar.svg" id="2_xy1lq"]
+[ext_resource type="Texture2D" uid="uid://b8db1pute5s0" path="res://assets/buttons/Desativa som.svg" id="3_yifna"]
+[ext_resource type="FontFile" uid="uid://baej48sjobnwb" path="res://assets/fonts/Jersey25-Regular.ttf" id="4_6t31j"]
+[ext_resource type="FontFile" uid="uid://b64b1xyj42ae2" path="res://assets/fonts/GoogleSansCode-VariableFont_MONO,wght.ttf" id="5_pkxpt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_itym7"]
+font = ExtResource("4_6t31j")
+font_size = 96
+
+[sub_resource type="LabelSettings" id="LabelSettings_alf3y"]
+font = ExtResource("5_pkxpt")
+font_size = 24
+
+[sub_resource type="LabelSettings" id="LabelSettings_m5a1v"]
+font = ExtResource("5_pkxpt")
+font_size = 18
+
+[node name="ContraCapa" type="Node2D" unique_id=493268727]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1576075037]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D" unique_id=2145652388]
+offset_right = 768.0
+offset_bottom = 1024.0
+color = Color(0.79607844, 0.1882353, 0.8784314, 1)
+
+[node name="Control" type="Control" parent="." unique_id=1903045391]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="Control" unique_id=538550138]
+layout_mode = 1
+offset_left = 476.0
+offset_top = 871.0
+offset_right = 749.0
+offset_bottom = 947.0
+icon = ExtResource("1_53g2t")
+flat = true
+
+[node name="Button2" type="Button" parent="Control" unique_id=371368335]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 871.0
+offset_right = 301.0
+offset_bottom = 947.0
+icon = ExtResource("2_xy1lq")
+flat = true
+
+[node name="Button3" type="Button" parent="Control" unique_id=1736494507]
+layout_mode = 0
+offset_left = 291.0
+offset_top = 944.0
+offset_right = 486.0
+offset_bottom = 1010.0
+icon = ExtResource("3_yifna")
+flat = true
+
+[node name="Node2D2" type="Node2D" parent="." unique_id=1397859668]
+
+[node name="Label" type="Label" parent="Node2D2" unique_id=1079752193]
+offset_left = 35.0
+offset_top = 39.0
+offset_right = 473.0
+offset_bottom = 136.0
+text = "Referências"
+label_settings = SubResource("LabelSettings_itym7")
+vertical_alignment = 2
+
+[node name="Label3" type="Label" parent="Node2D2" unique_id=885652751]
+offset_left = 595.0
+offset_top = 55.0
+offset_right = 710.0
+offset_bottom = 86.0
+text = "Página 6"
+label_settings = SubResource("LabelSettings_alf3y")
+vertical_alignment = 2
+
+[node name="Label2" type="Label" parent="Node2D2" unique_id=2996646]
+offset_left = 45.0
+offset_top = 159.0
+offset_right = 725.0
+offset_bottom = 759.0
+text = "PIMENTA, Israel Francisco Bernardo (resp.).Química por toda parte: médio: volume único. 1. ed. São Paulo: FTD, 2024.
+
+CANTO, Eduardo Leite do; LEITE, Laura Celloto Canto; CANTO, Luiza Celloto. Moderna plus química na abordagem do cotidiano.1. ed. São Paulo: Moderna, 2024. volume único.
+
+FONSECA, Martha Reis Marques da. Química. 1. ed. São Paulo: Ática, 2013. 3 v.
+
+MANUAL DA QUÍMICA. Diagrama de Linus Pauling e distribuição eletrônica. Manual da Química, 2026. Disponível em: https://www.manualdaquimica.com. Acesso em: 28 out. 2026.
+
+CABRAL, Gabriel. Distribuição eletrônica. [S. l.: s. n.], 2026. 1 vídeo (18 min 49 s). Publicado pelo canal Professor Gabriel Cabral. Disponível em: https://youtu.be/q-QFdbIbn2Y?si=UqY_MNUoGjZvq04X. Acesso em: 28 out. 2026."
+label_settings = SubResource("LabelSettings_m5a1v")
+autowrap_mode = 1
