@@ -4,6 +4,7 @@
 [ext_resource type="FontFile" uid="uid://b64b1xyj42ae2" path="res://assets/fonts/GoogleSansCode-VariableFont_MONO,wght.ttf" id="2_1nmu5"]
 [ext_resource type="Texture2D" uid="uid://d15gw8yd5b8tr" path="res://assets/components/Jagged Semi-Circle.svg" id="3_le1s3"]
 [ext_resource type="Texture2D" uid="uid://dw50yk4mqxhjg" path="res://assets/buttons/Botão Avançar.svg" id="4_2ufw1"]
+[ext_resource type="Texture2D" uid="uid://dlr4cwp6f77fe" path="res://assets/components/oxigenio.svg" id="4_ws7c4"]
 [ext_resource type="Texture2D" uid="uid://b8db1pute5s0" path="res://assets/buttons/Desativa som.svg" id="5_djvjx"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_0hx70"]
@@ -47,14 +48,35 @@ text = "Discente: Murilo Gonçalves Lucena
 Ano e Semestre: 2026 (Semestre 2026.2)"
 label_settings = SubResource("LabelSettings_qf8oh")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2044932172]
+[node name="Sprite2D" type="Sprite2D" parent="Node2D2" unique_id=2044932172]
 position = Vector2(347, 701)
 texture = ExtResource("3_le1s3")
 
-[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=2000484288]
-position = Vector2(620, 900)
-texture = ExtResource("4_2ufw1")
+[node name="Sprite2D4" type="Sprite2D" parent="Node2D2" unique_id=1650363852]
+position = Vector2(153, 847)
+scale = Vector2(2, 2)
+texture = ExtResource("4_ws7c4")
 
-[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1169649605]
-position = Vector2(656, 967)
-texture = ExtResource("5_djvjx")
+[node name="Control" type="Control" parent="." unique_id=1825621398]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="Control" unique_id=500729123]
+layout_mode = 0
+offset_left = 476.0
+offset_top = 871.0
+offset_right = 749.0
+offset_bottom = 947.0
+icon = ExtResource("4_2ufw1")
+flat = true
+
+[node name="Button2" type="Button" parent="Control" unique_id=1379926148]
+layout_mode = 0
+offset_left = 554.0
+offset_top = 946.0
+offset_right = 749.0
+offset_bottom = 1012.0
+icon = ExtResource("5_djvjx")
+flat = true

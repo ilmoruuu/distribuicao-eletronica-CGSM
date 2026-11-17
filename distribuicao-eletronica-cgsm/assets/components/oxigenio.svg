@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Gradiente 3D para Prótons (Vermelho) -->
+    <radialGradient id="protonGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ff6b6b" />
+      <stop offset="50%" stop-color="#d62828" />
+      <stop offset="100%" stop-color="#780000" />
+    </radialGradient>
+
+    <!-- Gradiente 3D para Nêutrons (Azul) -->
+    <radialGradient id="neutronGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#4ea8de" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </radialGradient>
+
+    <!-- Gradiente 3D para Elétrons (Verde) -->
+    <radialGradient id="electronGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#80ed99" />
+      <stop offset="50%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#052e16" />
+    </radialGradient>
+
+    <!-- Sombra suave para dar profundidade -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Eletrosfera (Órbitas) -->
+  <g fill="none" stroke="#1e293b" stroke-width="4.5">
+    <!-- Camada K (Interna) -->
+    <circle cx="250" cy="250" r="125" />
+    <!-- Camada L (Externa) -->
+    <circle cx="250" cy="250" r="205" />
+  </g>
+
+  <!-- Núcleo (16 nucleons: 8 prótons vermelhos e 8 nêutrons azuis agrupados) -->
+  <g filter="url(#dropShadow)">
+    <!-- Camada posterior do núcleo -->
+    <circle cx="232" cy="222" r="22" fill="url(#neutronGrad)" />
+    <circle cx="268" cy="222" r="22" fill="url(#protonGrad)" />
+    <circle cx="282" cy="250" r="22" fill="url(#neutronGrad)" />
+    <circle cx="268" cy="278" r="22" fill="url(#protonGrad)" />
+    <circle cx="232" cy="278" r="22" fill="url(#neutronGrad)" />
+    <circle cx="218" cy="250" r="22" fill="url(#protonGrad)" />
+
+    <!-- Camada intermediária do núcleo -->
+    <circle cx="250" cy="215" r="22" fill="url(#protonGrad)" />
+    <circle cx="278" cy="236" r="22" fill="url(#neutronGrad)" />
+    <circle cx="276" cy="266" r="22" fill="url(#protonGrad)" />
+    <circle cx="250" cy="285" r="22" fill="url(#neutronGrad)" />
+    <circle cx="224" cy="266" r="22" fill="url(#protonGrad)" />
+    <circle cx="222" cy="236" r="22" fill="url(#neutronGrad)" />
+
+    <!-- Camada frontal do núcleo -->
+    <circle cx="237" cy="238" r="22" fill="url(#protonGrad)" />
+    <circle cx="263" cy="238" r="22" fill="url(#neutronGrad)" />
+    <circle cx="263" cy="262" r="22" fill="url(#protonGrad)" />
+    <circle cx="237" cy="262" r="22" fill="url(#neutronGrad)" />
+  </g>
+
+  <!-- Elétrons (8 esferas verdes) -->
+  <g filter="url(#dropShadow)">
+    <!-- 2 Elétrons da camada interna (r = 125) -->
+    <circle cx="250" cy="125" r="14" fill="url(#electronGrad)" />
+    <circle cx="250" cy="375" r="14" fill="url(#electronGrad)" />
+
+    <!-- 6 Elétrons da camada externa (r = 205) -->
+    <!-- Topo (270°) -->
+    <circle cx="250" cy="45" r="14" fill="url(#electronGrad)" />
+    <!-- Superior Direito (330°) -->
+    <circle cx="427.5" cy="147.5" r="14" fill="url(#electronGrad)" />
+    <!-- Inferior Direito (30°) -->
+    <circle cx="427.5" cy="352.5" r="14" fill="url(#electronGrad)" />
+    <!-- Base (90°) -->
+    <circle cx="250" cy="455" r="14" fill="url(#electronGrad)" />
+    <!-- Inferior Esquerdo (150°) -->
+    <circle cx="72.5" cy="352.5" r="14" fill="url(#electronGrad)" />
+    <!-- Superior Esquerdo (210°) -->
+    <circle cx="72.5" cy="147.5" r="14" fill="url(#electronGrad)" />
+  </g>
+</svg>
