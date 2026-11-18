@@ -1,0 +1,89 @@
+[gd_scene format=3 uid="uid://q26en5b2bbr6"]
+
+[ext_resource type="Texture2D" uid="uid://dr4j30dgombx6" path="res://assets/buttons/Botão Ir para o início.svg" id="1_f3xk6"]
+[ext_resource type="Script" uid="uid://btlbak41fwgbl" path="res://scripts/navegação.gd" id="1_s23ch"]
+[ext_resource type="Texture2D" uid="uid://cjnw4v4uvd7nr" path="res://assets/buttons/Botão Retornar.svg" id="2_4ib4y"]
+[ext_resource type="Texture2D" uid="uid://b8db1pute5s0" path="res://assets/buttons/Desativa som.svg" id="3_s23ch"]
+[ext_resource type="FontFile" uid="uid://baej48sjobnwb" path="res://assets/fonts/Jersey25-Regular.ttf" id="4_qu3kr"]
+[ext_resource type="FontFile" uid="uid://b64b1xyj42ae2" path="res://assets/fonts/GoogleSansCode-VariableFont_MONO,wght.ttf" id="5_4ib4y"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_itym7"]
+font = ExtResource("4_qu3kr")
+font_size = 128
+font_color = Color(0.79607844, 0.1882353, 0.8784314, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_6o4we"]
+font = ExtResource("5_4ib4y")
+font_size = 20
+
+[node name="ContraCapa" type="Node2D" unique_id=493268727]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1576075037]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D" unique_id=2145652388]
+offset_right = 768.0
+offset_bottom = 1024.0
+color = Color(0.79607844, 0.1882353, 0.8784314, 1)
+
+[node name="Control" type="Control" parent="." unique_id=1903045391]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_s23ch")
+
+[node name="Button" type="Button" parent="Control" unique_id=538550138]
+layout_mode = 1
+offset_left = 476.0
+offset_top = 871.0
+offset_right = 749.0
+offset_bottom = 947.0
+icon = ExtResource("1_f3xk6")
+flat = true
+
+[node name="Button2" type="Button" parent="Control" unique_id=371368335]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 871.0
+offset_right = 301.0
+offset_bottom = 947.0
+icon = ExtResource("2_4ib4y")
+flat = true
+
+[node name="Button3" type="Button" parent="Control" unique_id=1736494507]
+layout_mode = 0
+offset_left = 291.0
+offset_top = 944.0
+offset_right = 486.0
+offset_bottom = 1010.0
+icon = ExtResource("3_s23ch")
+flat = true
+
+[node name="Node2D2" type="Node2D" parent="." unique_id=1397859668]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D2" unique_id=979892640]
+offset_top = 113.0
+offset_right = 768.0
+offset_bottom = 415.0
+
+[node name="Label" type="Label" parent="Node2D2" unique_id=1079752193]
+offset_left = 83.0
+offset_top = 135.0
+offset_right = 664.0
+offset_bottom = 396.0
+text = "Distribuição
+Eletrônica"
+label_settings = SubResource("LabelSettings_itym7")
+vertical_alignment = 2
+
+[node name="Label2" type="Label" parent="Node2D2" unique_id=585693022]
+offset_left = 84.0
+offset_top = 435.0
+offset_right = 770.0
+offset_bottom = 602.0
+text = "Discente: Murilo Gonçalves Lucena
+Ano e Semestre: 2026 (Semestre 2026.2)
+Orientador: Profº Me. Ewerton Mendonça
+Disciplina: Computação Gráfica e Sistemas Multimídia
+"
+label_settings = SubResource("LabelSettings_6o4we")
