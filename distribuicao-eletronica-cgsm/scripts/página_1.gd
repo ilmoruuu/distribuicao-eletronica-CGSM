@@ -4,7 +4,7 @@ extends Node2D
 @onready var oxygen_21: Sprite2D = $Node2D/Sprite2D2
 @onready var oxigenio: Sprite2D = $Node2D/Sprite2D
 
-@export var zoom_threshold: float = 1.8
+@export var zoom_threshold: float = 1.5
 @export var zoom_sensitivity: float = 0.005
 @export var mouse_zoom_step: float = 0.15
 @export var max_zoom: float = 3.0
@@ -71,8 +71,6 @@ func _apply_zoom() -> void:
 	current_zoom = clampf(current_zoom, 1.0, max_zoom)
 
 	oxygen_21.scale = initial_scale * current_zoom
-
-	print("Zoom atual: ", current_zoom)
 
 	if current_zoom >= zoom_threshold:
 		_show_oxygen()
