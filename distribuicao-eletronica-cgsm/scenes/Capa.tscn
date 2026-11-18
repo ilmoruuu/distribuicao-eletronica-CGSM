@@ -4,8 +4,9 @@
 [ext_resource type="FontFile" uid="uid://b64b1xyj42ae2" path="res://assets/fonts/GoogleSansCode-VariableFont_MONO,wght.ttf" id="2_1nmu5"]
 [ext_resource type="Texture2D" uid="uid://d15gw8yd5b8tr" path="res://assets/components/Jagged Semi-Circle.svg" id="3_le1s3"]
 [ext_resource type="Texture2D" uid="uid://dw50yk4mqxhjg" path="res://assets/buttons/Botão Avançar.svg" id="4_2ufw1"]
-[ext_resource type="Texture2D" uid="uid://dlr4cwp6f77fe" path="res://assets/components/oxigenio.svg" id="4_ws7c4"]
+[ext_resource type="Texture2D" uid="uid://iweihkgsxdvl" path="res://assets/components/atomo-svg.svg" id="4_ws7c4"]
 [ext_resource type="Texture2D" uid="uid://b8db1pute5s0" path="res://assets/buttons/Desativa som.svg" id="5_djvjx"]
+[ext_resource type="Script" uid="uid://btlbak41fwgbl" path="res://scripts/navegação.gd" id="5_nentq"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_0hx70"]
 font = ExtResource("1_og07s")
@@ -62,6 +63,7 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("5_nentq")
 
 [node name="Button" type="Button" parent="Control" unique_id=500729123]
 layout_mode = 0

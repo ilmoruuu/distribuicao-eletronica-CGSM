@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://8sdxecgkrwcp"]
 
 [ext_resource type="Texture2D" uid="uid://dw50yk4mqxhjg" path="res://assets/buttons/Botão Avançar.svg" id="1_53g2t"]
+[ext_resource type="Script" uid="uid://btlbak41fwgbl" path="res://scripts/navegação.gd" id="1_xy1lq"]
 [ext_resource type="Texture2D" uid="uid://cjnw4v4uvd7nr" path="res://assets/buttons/Botão Retornar.svg" id="2_xy1lq"]
 [ext_resource type="Texture2D" uid="uid://b8db1pute5s0" path="res://assets/buttons/Desativa som.svg" id="3_yifna"]
 [ext_resource type="FontFile" uid="uid://baej48sjobnwb" path="res://assets/fonts/Jersey25-Regular.ttf" id="4_6t31j"]
@@ -32,6 +33,7 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_xy1lq")
 
 [node name="Button" type="Button" parent="Control" unique_id=538550138]
 layout_mode = 1

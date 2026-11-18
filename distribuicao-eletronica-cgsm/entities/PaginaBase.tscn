@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dx52eislpqmy7"]
 
 [ext_resource type="Texture2D" uid="uid://cug0gdgu84dp7" path="res://assets/components/Paginação.svg" id="1_1hwl4"]
+[ext_resource type="Script" uid="uid://btlbak41fwgbl" path="res://scripts/navegação.gd" id="2_ccji8"]
 [ext_resource type="Texture2D" uid="uid://dw50yk4mqxhjg" path="res://assets/buttons/Botão Avançar.svg" id="2_uugdw"]
 [ext_resource type="Texture2D" uid="uid://cjnw4v4uvd7nr" path="res://assets/buttons/Botão Retornar.svg" id="3_qm1by"]
 [ext_resource type="Texture2D" uid="uid://b8db1pute5s0" path="res://assets/buttons/Desativa som.svg" id="4_ccji8"]
@@ -22,6 +23,7 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("2_ccji8")
 
 [node name="Button" type="Button" parent="Control" unique_id=1410855134]
 layout_mode = 1
