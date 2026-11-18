@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlr4cwp6f77fe"
-path="res://.godot/imported/oxigenio.svg-a1124b2fa2509e3ee9b8731ae9be83aa.ctex"
+uid="uid://cs5fwit2pcjd0"
+path="res://.godot/imported/mão.svg-a454c1a8a3cf26e647af29da4fef9cf3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/components/oxigenio.svg"
-dest_files=["res://.godot/imported/oxigenio.svg-a1124b2fa2509e3ee9b8731ae9be83aa.ctex"]
+source_file="res://assets/components/mão.svg"
+dest_files=["res://.godot/imported/mão.svg-a454c1a8a3cf26e647af29da4fef9cf3.ctex"]
 
 [params]
 
