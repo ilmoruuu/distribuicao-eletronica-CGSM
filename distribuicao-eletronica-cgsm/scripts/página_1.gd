@@ -4,7 +4,7 @@ extends Node2D
 @onready var oxygen_21: Sprite2D = $Node2D/Sprite2D2
 @onready var oxigenio: Sprite2D = $Node2D/Sprite2D
 
-@export var zoom_threshold: float = 1.5
+@export var zoom_threshold: float = 1.3
 @export var zoom_sensitivity: float = 0.005
 @export var mouse_zoom_step: float = 0.15
 @export var max_zoom: float = 3.0
