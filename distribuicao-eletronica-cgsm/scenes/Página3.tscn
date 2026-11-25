@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://ila1f00v7fk3"]
+
+[ext_resource type="PackedScene" uid="uid://dx52eislpqmy7" path="res://entities/PaginaBase.tscn" id="1_27i7u"]
+[ext_resource type="FontFile" uid="uid://baej48sjobnwb" path="res://assets/fonts/Jersey25-Regular.ttf" id="2_pypxr"]
+[ext_resource type="FontFile" uid="uid://b64b1xyj42ae2" path="res://assets/fonts/GoogleSansCode-VariableFont_MONO,wght.ttf" id="3_5oo6n"]
+[ext_resource type="Texture2D" uid="uid://dgepbokk2gvgr" path="res://assets/components/image 11.png" id="4_pypxr"]
+[ext_resource type="Texture2D" uid="uid://b4kr4frqep01m" path="res://assets/components/Núcleo.png" id="5_uyiud"]
+[ext_resource type="Texture2D" uid="uid://bp58df4melkgg" path="res://assets/components/eletrosfera.png" id="6_lqft4"]
+[ext_resource type="Texture2D" uid="uid://fymoscpj8mwv" path="res://assets/components/Camadas.png" id="7_dqn4m"]
+[ext_resource type="Texture2D" uid="uid://cyp1pdna6s522" path="res://assets/components/deslizar-o-dedo.png" id="8_lqft4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_uyiud"]
+font = ExtResource("2_pypxr")
+font_size = 96
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_dqn4m"]
+font = ExtResource("3_5oo6n")
+font_size = 24
+
+[sub_resource type="LabelSettings" id="LabelSettings_5oo6n"]
+font = ExtResource("3_5oo6n")
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[node name="Página3" type="Node2D" unique_id=930608614]
+
+[node name="PaginaBase" parent="." unique_id=1789224818 instance=ExtResource("1_27i7u")]
+
+[node name="Label" type="Label" parent="PaginaBase" unique_id=1695989514]
+offset_left = 35.0
+offset_top = 39.0
+offset_right = 358.0
+offset_bottom = 136.0
+text = "O átomo"
+label_settings = SubResource("LabelSettings_uyiud")
+
+[node name="Label5" type="Label" parent="PaginaBase" unique_id=1709807903]
+offset_left = 597.0
+offset_top = 55.0
+offset_right = 712.0
+offset_bottom = 86.0
+text = "Página 3"
+label_settings = SubResource("LabelSettings_dqn4m")
+vertical_alignment = 2
+
+[node name="Label2" type="Label" parent="PaginaBase" unique_id=1025874711]
+custom_minimum_size = Vector2(678, 120)
+offset_left = 45.0
+offset_top = 386.0
+offset_right = 723.0
+offset_bottom = 528.0
+text = "  Cada camada corresponde a um número quântico principal   (n) inteiro e maior que zero. Ou seja, as sete camadas eletrônicas correspondem aos números quânticos de 1 a 7. Quanto maior o valor de n, mais energética é a camada eletrônica."
+label_settings = SubResource("LabelSettings_5oo6n")
+horizontal_alignment = 3
+autowrap_mode = 2
+justification_flags = 162
+
+[node name="Label4" type="Label" parent="PaginaBase" unique_id=1044818390]
+custom_minimum_size = Vector2(678, 120)
+offset_left = 45.0
+offset_top = 552.0
+offset_right = 723.0
+offset_bottom = 672.0
+text = "Vamos conhecer cada camada! Arraste o dedo nos orbitais do átomo!"
+label_settings = SubResource("LabelSettings_5oo6n")
+horizontal_alignment = 3
+autowrap_mode = 2
+justification_flags = 162
+
+[node name="Label3" type="Label" parent="PaginaBase" unique_id=402232489]
+custom_minimum_size = Vector2(407, 92)
+offset_left = 322.0
+offset_top = 202.0
+offset_right = 729.0
+offset_bottom = 296.0
+text = "  No atual modelo atômico, o átomo apresenta o núcleo circundado por orbitais atômicos."
+label_settings = SubResource("LabelSettings_5oo6n")
+horizontal_alignment = 3
+autowrap_mode = 2
+justification_flags = 162
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=939561729]
+texture = ExtResource("4_pypxr")
+centered = false
+offset = Vector2(49, 148)
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1840551924]
+texture = ExtResource("5_uyiud")
+centered = false
+offset = Vector2(113, 682)
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1167658742]
+texture = ExtResource("6_lqft4")
+centered = false
+offset = Vector2(218, 624)
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=802337101]
+texture = ExtResource("7_dqn4m")
+centered = false
+offset = Vector2(179, 585)
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=1779723466]
+position = Vector2(18, 683)
+scale = Vector2(0.14453125, 0.14453125)
+texture = ExtResource("8_lqft4")
+centered = false
+offset = Vector2(179, 585)

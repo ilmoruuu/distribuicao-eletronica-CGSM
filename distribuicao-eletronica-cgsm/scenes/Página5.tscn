@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://chsnxapy7k7i7"]
+
+[ext_resource type="PackedScene" uid="uid://dx52eislpqmy7" path="res://entities/PaginaBase.tscn" id="1_xxji0"]
+
+[node name="Página5" type="Node2D" unique_id=930608614]
+
+[node name="PaginaBase" parent="." unique_id=1789224818 instance=ExtResource("1_xxji0")]
