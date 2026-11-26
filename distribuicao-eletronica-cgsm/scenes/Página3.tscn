@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ila1f00v7fk3"]
 
 [ext_resource type="PackedScene" uid="uid://dx52eislpqmy7" path="res://entities/PaginaBase.tscn" id="1_27i7u"]
+[ext_resource type="Script" uid="uid://7rjuvwf61p5s" path="res://scripts/página_3.gd" id="1_dqn4m"]
 [ext_resource type="FontFile" uid="uid://baej48sjobnwb" path="res://assets/fonts/Jersey25-Regular.ttf" id="2_pypxr"]
 [ext_resource type="FontFile" uid="uid://b64b1xyj42ae2" path="res://assets/fonts/GoogleSansCode-VariableFont_MONO,wght.ttf" id="3_5oo6n"]
 [ext_resource type="Texture2D" uid="uid://dgepbokk2gvgr" path="res://assets/components/image 11.png" id="4_pypxr"]
@@ -24,6 +25,7 @@ font_size = 20
 font_color = Color(0, 0, 0, 1)
 
 [node name="Página3" type="Node2D" unique_id=930608614]
+script = ExtResource("1_dqn4m")
 
 [node name="PaginaBase" parent="." unique_id=1789224818 instance=ExtResource("1_27i7u")]
 
