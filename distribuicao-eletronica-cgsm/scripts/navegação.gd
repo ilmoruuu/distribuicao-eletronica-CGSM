@@ -3,7 +3,10 @@ extends Control
 
 const PAGINAS: Array[String] = [
 	"res://scenes/Capa.tscn",
-	"res://scenes/Página1.tscn",
+	"res://scenes/Página2.tscn",
+	"res://scenes/Página3.tscn",
+	"res://scenes/Página4.tscn",
+	"res://scenes/Página5.tscn",
 	"res://scenes/Referências.tscn",
 	"res://scenes/Contracapa.tscn"
 ]
